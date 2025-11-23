@@ -35,4 +35,3 @@ Das Projekt besteht aus zwei Teilen:
 - matplotlib & Plotly (Visualisierung)
 - Jupyter Notebook
 
-- Die Dislike-Zahlen kommen von einer Chrome-Extension (Return YouTube Dislike)
