@@ -11,11 +11,21 @@ Das Projekt besteht aus zwei Teilen:
 
 ## Features
 
+**Data Collection:**
 - Scraped Video-Infos: Titel, Views, Likes, Dislikes, Kommentare, Channel-Daten
 - Speichert die Daten mit Timestamp in JSON-Dateien
+
+**Data Analysis:**
 - Entfernt automatisch Duplikate
 - Berechnet Like-Rate und Dislike-Rate
-- Erstellt Bar-Charts und interaktive Scatter-Plots
+- Analysiert Channel-Wachstum über Zeit (prozentuale View-Zunahme)
+- Extrahiert und analysiert Hashtags aus Video-Beschreibungen
+- Vergleicht Performance: Videos mit vs. ohne Hashtags
+
+**Visualizations:**
+- Bar-Charts: Like-Rates, Channel-Wachstum, Hashtag-Häufigkeit
+- Interaktive Scatter-Plots (Plotly)
+- Zeitreihenanalysen
 
 ## Tech Stack
 
@@ -25,3 +35,4 @@ Das Projekt besteht aus zwei Teilen:
 - matplotlib & Plotly (Visualisierung)
 - Jupyter Notebook
 
+- Die Dislike-Zahlen kommen von einer Chrome-Extension (Return YouTube Dislike)
